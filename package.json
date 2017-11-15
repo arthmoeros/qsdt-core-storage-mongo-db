@@ -1,0 +1,25 @@
+{
+  "name": "@qsdr/core-storage-mongo-db",
+  "version": "0.0.0",
+  "description": "QSDT's Mongo DB Storing Adapter for Core",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthmoeros/qsdt-core-storage-mongo-db.git"
+  },
+  "author": "arthmoeros (Arturo Saavedra)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/arthmoeros/qsdt-core-storage-mongo-db/issues"
+  },
+  "homepage": "https://github.com/arthmoeros/qsdt-core-storage-mongo-db#readme",
+  "dependencies": {
+    "@qsdt/common": "^2.0.3",
+    "@types/mongodb": "^2.2.15",
+    "@types/node": "^8.0.52",
+    "mongodb": "^2.2.33"
+  }
+}
