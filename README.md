@@ -1,4 +1,4 @@
-# ![qsdt-logo](https://raw.githubusercontent.com/arthmoeros/qsdt-ui/master/src/assets/img/rsz_qsdt-logo.png)@qsdt/common
+# ![qsdt-logo](https://raw.githubusercontent.com/arthmoeros/qsdt-ui/master/src/assets/img/rsz_qsdt-logo.png)@qsdt/core-storage-mongo-db
 ### Mongo DB Storage Implementation for QSDT's configuration
 
 #### What's this? - Intro
