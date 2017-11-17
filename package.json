@@ -4,7 +4,7 @@
   "description": "QSDT's Mongo DB Storing Adapter for Core",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsc & node test/core.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
   "dependencies": {
     "@qsdt/common": "^2.0.3",
     "@types/mongodb": "^2.2.15",
-    "@types/node": "^8.0.52",
+    "@types/node": "^8.0.53",
     "mongodb": "^2.2.33"
   }
 }

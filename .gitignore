@@ -38,3 +38,5 @@ jspm_packages
 
 **/*.js
 **/*.js.map
+
+test/own-db.json

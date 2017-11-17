@@ -14,3 +14,7 @@ Defines how Forms are accessed via a stored collection at a Monto Database
 ##### MongoDatabaseBlueprintManager
 
 Defines how Blueprints and Blueprint Materials are accessed via a stored collection at a Monto Database
+
+#### Anything else?
+
+Be cautious of closing the Mongo DB connection using the *destroy* method on the StorageManagerProvider class
