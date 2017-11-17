@@ -1,6 +1,6 @@
 {
-  "name": "@qsdr/core-storage-mongo-db",
-  "version": "0.0.0",
+  "name": "@qsdt/core-storage-mongo-db",
+  "version": "0.0.1",
   "description": "QSDT's Mongo DB Storing Adapter for Core",
   "main": "index.js",
   "scripts": {

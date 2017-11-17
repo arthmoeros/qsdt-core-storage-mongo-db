@@ -9,11 +9,11 @@ This module contains the Mongo DB implementation of Form and Blueprints managing
 
 ##### MongoDatabaseFormManager
 
-Defines how Forms are accessed via a stored collection at a Monto Database
+Defines how Forms are accessed via a stored collection at a Mongo Database
 
 ##### MongoDatabaseBlueprintManager
 
-Defines how Blueprints and Blueprint Materials are accessed via a stored collection at a Monto Database
+Defines how Blueprints and Blueprint Materials are accessed via a stored collection at a Mongo Database
 
 #### Anything else?
 
