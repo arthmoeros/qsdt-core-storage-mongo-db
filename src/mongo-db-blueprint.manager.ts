@@ -17,7 +17,7 @@ export class MongoDatabaseBlueprintManager extends BlueprintManager {
         let db: Db = await this.mongoDb;
         let blueprint: any = await db.collection('blueprints').findOne({ name });
         if (blueprint) {
-            return new BlueprintContainer(name, Buffer.from(blueprint.contents, 'base64').toString(), task);
+            return new BlueprintContainer(name, blueprint.contents.toString(), task);
         } else {
             return Promise.reject(new Error(`500 Couldn't find a blueprint record at database: ${name}:${task}`));
         }
@@ -27,7 +27,7 @@ export class MongoDatabaseBlueprintManager extends BlueprintManager {
         let db: Db = await this.mongoDb;
         let material: any = await db.collection('blueprint-materials').findOne({ blueprintName, materialLocation });
         if (material) {
-            return Buffer.from(material.contents, 'base64').toString();
+            return material.contents.toString();
         } else {
             return Promise.reject(new Error(`500 Couldn't find blueprint material record at database: ${blueprintName}:${materialLocation}`));
         }

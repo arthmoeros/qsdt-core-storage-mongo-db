@@ -26,7 +26,7 @@ export class StorageManagerProvider {
         return new MongoDatabaseFormManager(this.mongoDb);
     }
 
-    public async destroy(){
+    public async destroyProvider(){
         let db: Db = await this.mongoDb;
         db.close();
     }

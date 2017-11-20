@@ -15,6 +15,10 @@ Defines how Forms are accessed via a stored collection at a Mongo Database
 
 Defines how Blueprints and Blueprint Materials are accessed via a stored collection at a Mongo Database
 
+##### FS2MongoProcessor
+
+Migrates a FileSystem based configuration to a Mongo Database based one.
+
 #### Anything else?
 
-Be cautious of closing the Mongo DB connection using the *destroy* method on the StorageManagerProvider class
+Be cautious of closing the Mongo DB connection using the *destroyProvider* method on the StorageManagerProvider class

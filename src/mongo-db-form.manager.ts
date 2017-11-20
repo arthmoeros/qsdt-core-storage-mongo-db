@@ -31,7 +31,7 @@ export class MongoDatabaseFormManager extends FormManager {
         let db: Db = await this.mongoDb;
         let form: any = await db.collection('forms').findOne({ name });
         if (form) {
-            return Buffer.from(form.contents, 'base64').toString();
+            return form.contents.toString();
         } else {
             return Promise.reject(new Error("404 Form Configuration does not exist"));
         }

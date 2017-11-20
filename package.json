@@ -1,6 +1,6 @@
 {
   "name": "@qsdt/core-storage-mongo-db",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "QSDT's Mongo DB Storing Adapter for Core",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,10 @@
     "@qsdt/common": "^2.0.3",
     "@types/mongodb": "^2.2.15",
     "@types/node": "^8.0.53",
-    "mongodb": "^2.2.33"
+    "mongodb": "^2.2.33",
+    "shelljs": "^0.7.8"
+  },
+  "devDependencies": {
+    "@types/shelljs": "^0.7.6"
   }
 }
